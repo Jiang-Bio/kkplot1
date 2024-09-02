@@ -17,7 +17,7 @@ You can install the package from GitHub using the following commands:
 install.packages("devtools")
 
 # Use devtools to install MyRPackage from GitHub
-devtools::install_github("Jiang-Bio/kkplot")
+devtools::install_github("Jiang-Bio/kkplot1")
 
 
 # Load kkplot
