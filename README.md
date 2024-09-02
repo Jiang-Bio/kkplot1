@@ -1,4 +1,4 @@
-# MyRPackage
+# kkplot
 
 **kkplot** is a toolkit designed to reduce code redundancy in R. This package includes a set of utility functions that help you streamline repetitive tasks, enhancing code readability and maintainability.
 
