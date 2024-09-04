@@ -13,9 +13,6 @@ TF_logo(pwmlist, outfile, weigh = NULL)
 
 \item{weigh}{plot weigh}
 }
-\value{
-pdf file
-}
 \description{
 Title
 }

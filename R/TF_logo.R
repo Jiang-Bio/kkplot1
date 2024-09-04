@@ -3,13 +3,7 @@
 #' @param pwmlist a PWMatrixList
 #' @param outfile a pdf
 #' @param weigh plot weigh
-#'
-#' @return pdf file
-#' @export
-#'
-#' @examples
 TF_logo <- function(pwmlist,outfile,weigh=NULL){
-  #'@ pwmlist  PWMatrixList
   motif_pics=BiocParallel::bplapply(1:length(pwmlist),function(x){
     t_pwmlist <- universalmotif::convert_motifs(pwmlist[[x]])
     motif_pic=suppressMessages(universalmotif::view_motifs(t_pwmlist,show.positions = F,tryRC = T,
