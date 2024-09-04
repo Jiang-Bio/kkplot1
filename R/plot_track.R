@@ -1,9 +1,23 @@
-
-
-#' plot_track
+#' Title
 #'
-#' @param Grange object
-#' @param show_peak Grange object
+#' @param zoom_region
+#' @param bwfile
+#' @param y_max
+#' @param track_color
+#' @param peak_color
+#' @param sitename
+#' @param show_gene
+#' @param show_peak
+#' @param genome
+#' @param ylables
+#' @param tick.pos
+#' @param label_margin
+#' @param show_tatget_gene
+#'
+#' @return
+#' @export
+#'
+#' @examples
 plot_track <- function(zoom_region,bwfile,y_max=40,track_color="#80B1D3",peak_color="#FB8072",sitename="TF",
                        show_gene=TRUE,show_peak=NULL,genome=NULL,ylables=c("10","40"),tick.pos=c(10,40),
                        label_margin=0.08,show_tatget_gene=NULL){

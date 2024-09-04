@@ -13,15 +13,7 @@ enrich_in_DNAstringSet(
 )
 }
 \arguments{
-\item{PWMatrix}{PWMatrixlist}
-
-\item{DNAStringSet}{DNAStringSet}
-
-\item{shuffle_num}{num}
-
-\item{pseudo}{num}
-
-\item{p.cutoff}{num}
+\item{p.cutoff}{}
 }
 \description{
 Title

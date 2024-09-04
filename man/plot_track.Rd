@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_track.R
 \name{plot_track}
 \alias{plot_track}
-\title{plot_track}
+\title{Title}
 \usage{
 plot_track(
   zoom_region,
@@ -21,10 +21,8 @@ plot_track(
 )
 }
 \arguments{
-\item{show_peak}{Grange object}
-
-\item{Grange}{object}
+\item{show_tatget_gene}{}
 }
 \description{
-plot_track
+Title
 }

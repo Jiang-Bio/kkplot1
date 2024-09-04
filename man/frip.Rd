@@ -7,9 +7,7 @@
 frip(reads, peaks, singleEnd = T)
 }
 \arguments{
-\item{reads}{bamfile}
-
-\item{peaks}{narrowPeal}
+\item{singleEnd}{}
 }
 \description{
 Title

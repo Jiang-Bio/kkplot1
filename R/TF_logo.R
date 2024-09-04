@@ -1,8 +1,13 @@
 #' Title
 #'
-#' @param pwmlist a PWMatrixList
-#' @param outfile a pdf
-#' @param weigh plot weigh
+#' @param pwmlist
+#' @param outfile
+#' @param weigh
+#'
+#' @return
+#' @export
+#'
+#' @examples
 TF_logo <- function(pwmlist,outfile,weigh=NULL){
   motif_pics=BiocParallel::bplapply(1:length(pwmlist),function(x){
     t_pwmlist <- universalmotif::convert_motifs(pwmlist[[x]])

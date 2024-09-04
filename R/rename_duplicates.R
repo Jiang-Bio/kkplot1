@@ -1,5 +1,11 @@
-
-#' Title rename_duplicates
+#' Title
+#'
+#' @param strings
+#'
+#' @return
+#' @export
+#'
+#' @examples
 rename_duplicates <- function(strings) {
   counts <- table(strings)
   seen <- setNames(rep(1, length(counts)), names(counts))

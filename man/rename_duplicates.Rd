@@ -2,10 +2,13 @@
 % Please edit documentation in R/rename_duplicates.R
 \name{rename_duplicates}
 \alias{rename_duplicates}
-\title{Title rename_duplicates}
+\title{Title}
 \usage{
 rename_duplicates(strings)
 }
+\arguments{
+\item{strings}{}
+}
 \description{
-Title rename_duplicates
+Title
 }

@@ -7,11 +7,7 @@
 TF_logo(pwmlist, outfile, weigh = NULL)
 }
 \arguments{
-\item{pwmlist}{a PWMatrixList}
-
-\item{outfile}{a pdf}
-
-\item{weigh}{plot weigh}
+\item{weigh}{}
 }
 \description{
 Title

@@ -1,8 +1,15 @@
+
 #' Title
 #'
-#' @param peak narrowPeak Grange object
-#' @param top_peak_num num
-#' @param go_num How many are displayed
+#' @param peak
+#' @param top_peak_num
+#' @param tssregion
+#' @param go_num
+#'
+#' @return
+#' @export
+#'
+#' @examples
 peak_to_GO <- function(peak,top_peak_num=2000,tssregion=c(-1000,1000),go_num=30){
   df <- import(i)
   df <- df[grep("^Chr", df@seqnames),]

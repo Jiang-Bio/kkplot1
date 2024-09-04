@@ -7,11 +7,7 @@
 peak_to_GO(peak, top_peak_num = 2000, tssregion = c(-1000, 1000), go_num = 30)
 }
 \arguments{
-\item{peak}{narrowPeak Grange object}
-
-\item{top_peak_num}{num}
-
-\item{go_num}{How many are displayed}
+\item{go_num}{}
 }
 \description{
 Title

@@ -1,10 +1,16 @@
+
 #' Title
 #'
-#' @param PWMatrix PWMatrixlist
-#' @param DNAStringSet DNAStringSet
-#' @param shuffle_num num
-#' @param pseudo num
-#' @param p.cutoff num
+#' @param PWMatrix
+#' @param DNAStringSet
+#' @param shuffle_num
+#' @param pseudo
+#' @param p.cutoff
+#'
+#' @return
+#' @export
+#'
+#' @examples
 enrich_in_DNAstringSet <- function(PWMatrix,DNAStringSet,shuffle_num=10,
                                    pseudo=20,p.cutoff=1e-05){
   match <- motifmatchr::matchMotifs(pwms = PWMatrix, DNAStringSet,

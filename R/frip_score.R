@@ -1,7 +1,14 @@
+
 #' Title
 #'
-#' @param reads bamfile
-#' @param peaks narrowPeal
+#' @param reads
+#' @param peaks
+#' @param singleEnd
+#'
+#' @return
+#' @export
+#'
+#' @examples
 frip <- function(reads, peaks, singleEnd=T) {
   reads <- BamFile(reads)
   # find reads in peaks
