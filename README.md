@@ -1,4 +1,4 @@
-# kkplot
+# kkplot --Some of my own small plotting utilities
 
 **kkplot1** is a personal collection of plotting scripts designed for internal use. The primary goal of this repository is to reduce code redundancy and improve code readability. It offers a streamlined approach to creating visualizations by consolidating common plotting functions into reusable, well-structured code.
 
